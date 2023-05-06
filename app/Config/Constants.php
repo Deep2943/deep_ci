@@ -15,6 +15,22 @@
  */
 defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
 
+// Site Info 
+define('SITE_TITLE', 'Deep Ci');
+define('SITE_DESCRIPTION', '');
+define('SITE_KEYWORDS', '');
+define('SITE_AUTHOR', '');
+define('SITE_URL', '');
+
+
+
+
+
+define('BASE_URL', 'http://localhost/deep_ci');
+define('ASSETS_PATH', BASE_URL.'/assets/');
+define('FILE_PATH', BASE_URL.'/app/views/');
+
+
 /*
  | --------------------------------------------------------------------------
  | Composer Path
