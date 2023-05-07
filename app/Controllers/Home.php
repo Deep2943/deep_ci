@@ -19,4 +19,9 @@ class Home extends BaseController
         $data['title'] = "About Us";
         return view('pages/about', $data);
     }
+
+    public function contact_us(){
+        $data['title'] = "Contact Us";
+        return view('pages/contact-us', $data);
+    }
 }

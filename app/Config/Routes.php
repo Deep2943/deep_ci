@@ -34,6 +34,7 @@ use App\Controllers\Pages;
 // $routes->get('/', 'Home::index');   
 $routes->get('/', 'Home::index');   
 $routes->get('/about', 'Home::about');
+$routes->get('/contact-us', 'Home::contact_us');
 
 
 /*

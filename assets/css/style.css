@@ -170,6 +170,7 @@ body{overflow-x: hidden; padding:0; margin:0;}
     justify-content: flex-end;
     display: flex;
 }
+.nav-slide-open .twt-navbar-common .navbar-slide{display: inline-block;}
 .header-top .social-media {
     margin-left: auto;
     display: table;
@@ -247,11 +248,11 @@ display: none;
 }
 .footer-quick-title{
     font-size: 22px;
-    font-weight: 700;
-    padding-bottom: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
+.link-all .media{display: flex;align-items: flex-start;}
 .footer-quick-links {
-    margin: auto;
     display: table;
 }
 .footer-quick-links .footer-link {
@@ -282,13 +283,8 @@ display: none;
 .footer-dark .media .media-address {
     margin-bottom: 5px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
-}
-.footer-dark .link-all {
-    margin: auto;
-    display: table;
-    padding: 0 30px;
 }
 
 
@@ -317,7 +313,7 @@ display: none;
     color: #fff;
     padding-top: 25px;
     padding-bottom: 10px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .footer-btn-cnt{
     color: #aaa;

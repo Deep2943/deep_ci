@@ -35,6 +35,8 @@
     <!-- CSS Files  -->
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/slick-theme.css">
+    <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/slick.css">
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/main.css">
     <link rel="stylesheet" href="<?php echo ASSETS_PATH; ?>css/style.css">
@@ -51,6 +53,7 @@
     <script src="<?php echo ASSETS_PATH; ?>js/jquery.js"></script>
     <script src="<?php echo ASSETS_PATH; ?>js/script.js"></script>
     <script src="<?php echo ASSETS_PATH; ?>js/bootstrap.bundle.js"></script>
+    <script src="<?php echo ASSETS_PATH; ?>js/slick.js"></script>
 </head>
 
 <body>
@@ -84,37 +87,36 @@
         </div>
         <nav class="navbar twt-navbar twt-navbar-common navbar-expand-lg nav-light" id="navMain">
             <div class="container">
-                <a class="navbar-brand p-3 p-lg-0" href="<?php echo BASE_URL.('/') ?>">
+                <a class="navbar-brand p-0" href="<?php echo BASE_URL.('/') ?>">
                     <img src="<?php echo ASSETS_PATH; ?>images/ci.png" alt="Deep Ci" class="brand-logo-img">
                 </a>
                 <button type="button" class="btn navbar-toggler border-0 toggle-menu" id="slide-toggle">
-                    <i class="fas fa-bars"></i>
+                    <span class="navbar-dash"></span>
+                    <span class="navbar-dash"></span>
+                    <span class="navbar-dash"></span>
                 </button>
 
-                <div class="slide navbar-slide  ml-lg-3" id="slideNavs">
-                    <button type="button" class="btn navbar-toggler border-0" id="slide-toggle01">
-                        <span class="navbar-dash"></span>
-                        <span class="navbar-dash"></span>
-                        <span class="navbar-dash"></span>
-                    </button>
-                    <ul class="navbar-nav ml-auto p-lg-0 pt-5" id="elastic_parentsss" data-targets=".nav-item">
+                <div class="slide navbar-slide" id="slideNavs">
+                    <ul class="navbar-nav ml-auto" id="elastic_parentsss" data-targets=".nav-item">
                         <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL.('/') ?>">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL.('/about') ?>">About Us</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="javascript:void(0)" class="nav-link dropdown-toggle product-main-link" data-toggle="dropdown"><span
-                                    class="">Dropdown</span></a>
-                            <a href="javascript:void(0)" class="nav-link dropdown-toggle prd-menu-bar" data-toggle="dropdown"><span
-                                    class="">Dropdown</span></a>
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle product-main-link"
+                                data-toggle="dropdown"><span class="">Dropdown</span></a>
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle prd-menu-bar"
+                                data-toggle="dropdown"><span class="">Dropdown</span></a>
                             <ul class="dropdown-menu">
                                 <li class=" all-product-link">
                                     <a class="dropdown-item" href="javascript:void(0)">All
                                         Dropdown</a>
                                 </li>
-                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:void(0)"> Dropdown
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"
+                                        href="javascript:void(0)"> Dropdown
                                         1</a>
                                     <ul class="dropdown-menu">
-                                        <li class="d-lg-none d-block"><a class="dropdown-item dropdown-toggle" href="javascript:void(0)">
+                                        <li class="d-lg-none d-block"><a class="dropdown-item dropdown-toggle"
+                                                href="javascript:void(0)">
                                                 All</a>
                                         <li><a class="dropdown-item" href="javascript:void(0)">
                                                 Sub Dropdown</a></li>
@@ -122,10 +124,12 @@
                                                 Sub Dropdown</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:void(0)">
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"
+                                        href="javascript:void(0)">
                                         Dropdown 2</a>
                                     <ul class="dropdown-menu">
-                                        <li class="d-lg-none d-block"><a class="dropdown-item dropdown-toggle" href="javascript:void(0)">
+                                        <li class="d-lg-none d-block"><a class="dropdown-item dropdown-toggle"
+                                                href="javascript:void(0)">
                                                 All</a>
                                         <li><a class="dropdown-item" href="javascript:void(0)">Sub Dropdown</a></li>
                                         <li><a class="dropdown-item" href="javascript:void(0)">Sub Dropdown</a></li>
@@ -134,7 +138,8 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Contact us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo BASE_URL.('/contact-us') ?>">Contact
+                                us</a></li>
                     </ul>
                 </div>
             </div>
