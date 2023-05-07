@@ -57,8 +57,8 @@
 </head>
 
 <body>
-    <!-- <div class="d-lg-none mobile-view-none">Mobile Version of website is still under development</div>
-        <div class="d-lg-block d-none"> -->
+    <?php /*  <div class="d-lg-none mobile-view-none">Mobile Version of website is still under development</div>
+        <div class="d-lg-block d-none"> */ ?>
     <!-- navbar start -->
     <div class="main-navbar-wrapper">
         <div class="header-top">

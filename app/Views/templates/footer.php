@@ -79,9 +79,9 @@
             </div>
         </div>
         <div class="copyright border-top pt-2 d-flex justify-content-between flex-wrap">
-            <p class="mb-0 d-inline-block"><span class="">&copy; 2023 Deep Suthar. All Rights Reserved. </span></p>
+            <p class="mb-0 d-inline-block"><span class="">&copy; 2023 <?php echo SITE_TITLE ?> All Rights Reserved.</span></p>
             <p class="website-link mb-0 d-inline-block">Developed by <a href="https://deepsuthar-me.netlify.app/"
-                    target="_blank" rel="noopener noreferrer">Deep Suthar</a>.</p>
+                    target="_blank" rel="noopener noreferrer"><?php echo DEVELOPED_BY ?></a>.</p>
         </div>
     </div>
 </footer>
