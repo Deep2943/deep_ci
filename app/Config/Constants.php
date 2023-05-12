@@ -21,6 +21,7 @@ define('SITE_DESCRIPTION', '');
 define('SITE_KEYWORDS', '');
 define('SITE_AUTHOR', '');
 define('SITE_URL', '');
+define('DEVELOPED_BY', 'Deep Suthar');
 
 
 
