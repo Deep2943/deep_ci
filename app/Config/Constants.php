@@ -25,7 +25,8 @@ define('SITE_URL', '');
 
 
 
-$base = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']) : 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']);
+// $base = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']) : 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']);
+$base = "https://deep-ci.netlify.app/";
 defined('BASE_URL') || define('BASE_URL', $base);
 define('ASSETS_PATH', BASE_URL.'/assets/');
 define('FILE_PATH', BASE_URL.'/app/views/');
