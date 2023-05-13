@@ -32,9 +32,9 @@ $routes->set404Override();
 
 use App\Controllers\Pages;
 // $routes->get('/', 'Home::index');   
-$routes->get('/home.html', 'Home::index');   
-$routes->get('/about.html', 'Home::about');
-$routes->get('/contact-us.html', 'Home::contact_us');
+$routes->get('/', 'Home::index');   
+$routes->get('/about', 'Home::about');
+$routes->get('/contact-us', 'Home::contact_us');
 
 
 /*
